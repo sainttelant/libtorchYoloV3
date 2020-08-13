@@ -23,9 +23,12 @@ cd models
 wget https://pjreddie.com/media/files/yolov3.weights 
 ```
 
-On Single image:
+load weights\models and images:
 ```
+change the image path in your main()function.
+as 
 ./{your test image path}/imgs/person.jpg
+and weights. cfg as well
 ```
 
 As I tested, it will take 2700 ms on Cpu,please run inference job more than once, and calculate the average cost.
